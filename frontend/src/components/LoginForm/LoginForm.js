@@ -50,11 +50,11 @@ const LoginForm = ()=>{
     }
    
     return (
-        <div className="bg-white round-md">
-<div className="bg-white round-md flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-white round-md ">
+<div className="bg-white round-md flex min-h-full items-center justify-center pb-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md space-y-8">
       
-          <form className="w-80 mt-8 space-y-6" action="#" method="POST" onSubmit={submitHandler}>
+          <form className="w-80  space-y-6" action="#" method="POST" onSubmit={submitHandler}>
             <input type="hidden" name="remember" defaultValue="true" />
             <div className="-space-y-px rounded-md shadow-sm">
               <div className='mb-5 border-gray-300 border py-2 px-1 rounded'>
