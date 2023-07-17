@@ -18,7 +18,7 @@ const Login = () => {
           <p className="text-2xl text-justify font-bold mt-20">Pay team members hired through your own entities 90+ countries with global payroll</p>
           <p className="flex items-center font-bold gap-2 mt-2 text-2xl"><a>Learn more </a><FiArrowRight/></p>
         </div>
-        <div className='w-96 form-text mr-60 rounded h-auto py-4 px-3 border-2 bg-white flex flex-col items-center'>
+        <div className='w-106 form-text mr-60 rounded h-auto py-4 px-6 border-2 bg-white flex flex-col items-center'>
           <h3 className="text-2xl text-black font-bold mb-5 mt-5">Login</h3>
           <div>
             <button className='bg-white rounded w-80 text-indigo-300 border-2 py-2 p-4 flex justify-center items-center gap-2'><FcGoogle size={24}/><h4 className="text-sm font-bold">Sign Up using Google</h4></button>
